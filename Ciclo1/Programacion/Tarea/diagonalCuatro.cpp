@@ -28,6 +28,9 @@ int main() {
         cout << endl;
         i++;
     }
+   
+    cout << endl;
+    system("pause");    
 
     return 0;
 }

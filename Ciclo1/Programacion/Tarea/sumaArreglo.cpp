@@ -20,5 +20,8 @@ int main() {
 
     cout << "\nLa suma de los elementos es: " << suma;
 
+    cout << endl;
+    system("pause");
+
     return 0;
 }

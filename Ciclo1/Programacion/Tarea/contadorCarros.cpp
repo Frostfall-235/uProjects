@@ -14,6 +14,9 @@ int main() {
     }
 
     cout << "Se atendieron " << carros << " carros en total.";
-
+    
+    cout << endl;
+    system("pause");
+    
     return 0;
 }

@@ -52,5 +52,8 @@ int main() {
 
     cout << "La suma de elementos es: " << suma;
 
+    cout << endl;
+    system("pause");
+
     return 0;
 }

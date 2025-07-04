@@ -68,5 +68,8 @@ int main() {
     cout << "\nLa suma de sus elementos es: " << suma;
     cout << "\nEl mayor de sus elementos es: " << mayor;
 
+    cout << endl;
+    system("pause");
+
     return 0;
 }

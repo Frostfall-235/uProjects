@@ -37,5 +37,8 @@ int main() {
     cout << "La cantidad de elementos pares es: " << pares << endl;
     cout << "La cantidad de elementos impares es: " << impares;
 
+    cout << endl;
+    system("pause");
+
     return 0;
 }

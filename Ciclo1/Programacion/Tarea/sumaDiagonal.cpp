@@ -36,5 +36,8 @@ int main() {
 
     cout << "La suma de la diagonal es: " << suma;
 
+    cout << endl;
+    system("pause");
+
     return 0;
 }
