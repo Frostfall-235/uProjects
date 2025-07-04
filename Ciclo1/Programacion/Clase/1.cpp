@@ -15,7 +15,7 @@ int main() {
         {15, 13, 1}, 
         {100, 15, 28}
     }, i=0, j;
-    int numero;
+    int numero, suma=0;
     bool found = false;
 
     cout << "La matriz 3x3 es:" << endl;
@@ -24,6 +24,7 @@ int main() {
 
         while(j < 3) {
             cout << A[i][j] << "\t";
+            suma += A[i][j];
 
             j++;
         }
@@ -34,6 +35,7 @@ int main() {
 
     i=0;
 
+    cout << "La suma de los elementos de la matriz es: " << suma << endl;
     cout << "Ingrese un numero para buscarlo en la matriz: ";
     cin >> numero;
 
