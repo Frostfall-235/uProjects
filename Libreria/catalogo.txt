@@ -4,21 +4,63 @@ Catalogo de libros:
 ISBN: 1000
 Titulo: El mundo es ancho y ajeno
 Autor: Ciro Alegria
-Genero: Filosofico
+Genero: Novela
 Paginas: 172
-Stock: 0
+Stock: 1
 --------------------------
 ISBN: 1001
 Titulo: Edipo Rey
-Autor: Esquilo
-Genero: Drama
-Paginas: 384
+Autor: Sofocles
+Genero: Epico
+Paginas: 273
 Stock: 1
 --------------------------
 ISBN: 1002
 Titulo: La Iliada
 Autor: Homero
 Genero: Epico
-Paginas: 1034
+Paginas: 579
+Stock: 4
+--------------------------
+ISBN: 1003
+Titulo: Las cuitas del joven Werther
+Autor: J. Wolfgang Goethe
+Genero: Novela Epistolar
+Paginas: 189
+Stock: 2
+--------------------------
+ISBN: 1002
+Titulo: La Iliada
+Autor: Homero
+Genero: Epico
+Paginas: 579
+Stock: 2
+--------------------------
+ISBN: 1002
+Titulo: La Iliada
+Autor: Homero
+Genero: Epico
+Paginas: 579
+Stock: 3
+--------------------------
+ISBN: 1003
+Titulo: Las cuitas del joven Werther
+Autor: J. Wolfgang Goethe
+Genero: Novela Epistolar
+Paginas: 189
+Stock: 2
+--------------------------
+ISBN: 1002
+Titulo: La Iliada
+Autor: Homero
+Genero: Epico
+Paginas: 579
+Stock: 4
+--------------------------
+ISBN: 1004
+Titulo: Trilce
+Autor: Cesar Vallejo
+Genero: Poetico
+Paginas: 346
 Stock: 1
 --------------------------
