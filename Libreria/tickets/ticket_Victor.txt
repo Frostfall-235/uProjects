@@ -1,0 +1,7 @@
+Ticket de Prestamo
+
+Cliente: Victor
+Libro Prestado:
+  Titulo: El mundo es ancho y ajeno
+  Autor: Ciro Alegria
+  ISBN: 1000

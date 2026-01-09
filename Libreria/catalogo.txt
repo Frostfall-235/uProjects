@@ -1,0 +1,24 @@
+Catalogo de libros:
+
+--------------------------
+ISBN: 1000
+Titulo: El mundo es ancho y ajeno
+Autor: Ciro Alegria
+Genero: Filosofico
+Paginas: 172
+Stock: 0
+--------------------------
+ISBN: 1001
+Titulo: Edipo Rey
+Autor: Esquilo
+Genero: Drama
+Paginas: 384
+Stock: 1
+--------------------------
+ISBN: 1002
+Titulo: La Iliada
+Autor: Homero
+Genero: Epico
+Paginas: 1034
+Stock: 1
+--------------------------
