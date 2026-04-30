@@ -2,65 +2,23 @@ Catalogo de libros:
 
 --------------------------
 ISBN: 1000
-Titulo: El mundo es ancho y ajeno
-Autor: Ciro Alegria
-Genero: Novela
-Paginas: 172
-Stock: 1
+Titulo: Los Sergios
+Autor: Rick Sanchez
+Genero: Seriedad
+Paginas: 1
+Stock: 2
+--------------------------
+ISBN: 1000
+Titulo: Los Sergios
+Autor: Rick Sanchez
+Genero: Seriedad
+Paginas: 1
+Stock: 2
 --------------------------
 ISBN: 1001
-Titulo: Edipo Rey
-Autor: Sofocles
-Genero: Epico
-Paginas: 273
-Stock: 1
---------------------------
-ISBN: 1002
-Titulo: La Iliada
-Autor: Homero
-Genero: Epico
-Paginas: 579
-Stock: 4
---------------------------
-ISBN: 1003
-Titulo: Las cuitas del joven Werther
-Autor: J. Wolfgang Goethe
-Genero: Novela Epistolar
-Paginas: 189
-Stock: 2
---------------------------
-ISBN: 1002
-Titulo: La Iliada
-Autor: Homero
-Genero: Epico
-Paginas: 579
-Stock: 2
---------------------------
-ISBN: 1002
-Titulo: La Iliada
-Autor: Homero
-Genero: Epico
-Paginas: 579
-Stock: 3
---------------------------
-ISBN: 1003
-Titulo: Las cuitas del joven Werther
-Autor: J. Wolfgang Goethe
-Genero: Novela Epistolar
-Paginas: 189
-Stock: 2
---------------------------
-ISBN: 1002
-Titulo: La Iliada
-Autor: Homero
-Genero: Epico
-Paginas: 579
-Stock: 4
---------------------------
-ISBN: 1004
-Titulo: Trilce
-Autor: Cesar Vallejo
-Genero: Poetico
-Paginas: 346
+Titulo: Los Ositos
+Autor: Oso
+Genero: Ososidad
+Paginas: 1
 Stock: 1
 --------------------------

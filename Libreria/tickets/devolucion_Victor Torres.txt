@@ -1,0 +1,7 @@
+Ticket de Devolucion
+
+Cliente: Victor Torres
+Libro Devuelto:
+  Titulo: Los Ositos
+  Autor: Oso
+  ISBN: 1001

@@ -1,0 +1,7 @@
+Ticket de Prestamo
+
+Cliente: Victor Torres
+Libro Prestado:
+  Titulo: Los Ositos
+  Autor: Oso
+  ISBN: 1001
