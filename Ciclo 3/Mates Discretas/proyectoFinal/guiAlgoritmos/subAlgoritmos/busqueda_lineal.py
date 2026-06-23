@@ -1,8 +1,12 @@
 
 def busqueda_lineal(lista, objetivo):
+    comparaciones = 0
 
-    for i in range(len(lista)): # O(n)
+    for i in range(len(lista)):  # O(n)
+        # Comparación relevante: decide si el elemento es el objetivo
+        comparaciones += 1
         if lista[i] == objetivo:
-            return i # Retorna el índice si lo encuentra
-        
-    return None # No retorna nada si el elemento no está
+            return i, comparaciones  # Retorna el índice y el contador
+
+    return None, comparaciones  # No retorna nada si el elemento no está
+
