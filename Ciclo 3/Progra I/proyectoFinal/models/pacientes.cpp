@@ -50,13 +50,18 @@ void registrarPaciente() {
 
     limpiarPantalla();
     mostrarTitulo("Registrar Paciente");
-    leerDatosPaciente(paciente, true);
+
+    // Leer y validar el ID inmediatamente para no pedir el resto de datos si ya existe.
+    paciente.idPaciente = leerEnteroMinimo("ID del paciente: ", 1);
 
     if (buscarPosicionPacientePorId(paciente.idPaciente) != -1) {
         mostrarError("Ya existe un paciente con ese ID.");
         pausar();
         return;
     }
+
+    // Completar el resto de datos (sin volver a pedir el ID)
+    leerDatosPaciente(paciente, false);
 
     paciente.estado = 'A';
 
@@ -74,6 +79,7 @@ void registrarPaciente() {
     mostrarMensaje("Paciente registrado correctamente.");
     pausar();
 }
+
 
 void mostrarPacientes() {
     Paciente paciente;

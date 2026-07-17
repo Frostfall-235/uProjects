@@ -70,7 +70,9 @@ void registrarCita() {
 
     limpiarPantalla();
     mostrarTitulo("Registrar Cita");
-    leerDatosCita(cita, true);
+
+    // 1) Validar ID de cita primero (para no pedir datos extra si el ID ya existe).
+    cita.idCita = leerEnteroMinimo("ID de la cita: ", 1);
 
     if (buscarPosicionCitaPorId(cita.idCita) != -1) {
         mostrarError("Ya existe una cita con ese ID.");
@@ -78,11 +80,20 @@ void registrarCita() {
         return;
     }
 
+    // 2) Validar ID de paciente antes de pedir medico/fecha/hora.
+    cita.idPaciente = leerEnteroMinimo("ID del paciente: ", 1);
+
     if (!existePaciente(cita.idPaciente)) {
         mostrarError("No existe un paciente activo con ese ID.");
         pausar();
         return;
     }
+
+    // 3) Recién ahora completar los demás datos.
+    leerTexto(cita.medico, 50, "Medico: ");
+    leerTexto(cita.especialidad, 40, "Especialidad: ");
+    leerFecha(cita.fecha, 11, "Fecha (dd/mm/aaaa): ");
+    leerHora(cita.hora, 6, "Hora (hh:mm): ");
 
     cita.estado = 'P';
 
@@ -100,6 +111,7 @@ void registrarCita() {
     mostrarMensaje("Cita registrada correctamente.");
     pausar();
 }
+
 
 void mostrarCitas() {
     Cita cita;
